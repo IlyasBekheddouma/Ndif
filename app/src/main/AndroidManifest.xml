@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bekheddouma.ndif">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.MediaStore.EXTRA_OUTPUT"></uses-permission>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="LockedOrientationActivity"
+        android:fullBackupContent="false">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB6g8YWnFFcycY5rIrJAASpVmsYf1tnCf0" />
+
+        <activity android:name=".Activity.M4Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.M3Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.M2Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.M1Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.VCActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.VPNActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.ITActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.LengueActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.SplashScreenActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

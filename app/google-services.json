@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "3842020825",
+    "firebase_url": "https://nadif-d56d7.firebaseio.com",
+    "project_id": "nadif-d56d7",
+    "storage_bucket": "nadif-d56d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3842020825:android:70430a444e1e13ba6fb5c8",
+        "android_client_info": {
+          "package_name": "com.bekheddouma.ndif"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3842020825-jsfgng26571nkmf303e4k6rlqpj14h4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmQwbqtPt17P1K57zD3aZGu5e0iOaec-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3842020825-jsfgng26571nkmf303e4k6rlqpj14h4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

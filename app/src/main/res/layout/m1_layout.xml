@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AICL1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHI"
+    tools:context=".Activity.M1Activity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/AIG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/AIG2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/AIG3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <LinearLayout
+        android:id="@+id/AILL1"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/AICL2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/AITV1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Nadif"
+                android:textAlignment="center"
+                android:textColor="@color/WHI"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="@+id/AIIV1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/AIIV1" />
+
+            <ImageView
+                android:id="@+id/AIIV1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:elevation="4dp"
+                android:outlineProvider="none"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/love" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AILL2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AILL1">
+
+        <LinearLayout
+            android:id="@+id/AILL3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/AIB1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_bet0"
+                android:text="Profil"
+                android:textAllCaps="false"
+                android:textColor="@color/WHI"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/AILL4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/AIB2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_bet0"
+                android:text="Déclarer un déchet"
+                android:textAllCaps="false"
+                android:textColor="@color/WHI"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/AILL5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/AIB3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_bet0"
+                android:text="Déclarer une benne"
+                android:textAllCaps="false"
+                android:textColor="@color/WHI"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/AILL6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/AIB4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_bet0"
+                android:text="Contact"
+                android:textAllCaps="false"
+                android:textColor="@color/WHI"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AILL7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_let1"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/AILL1"
+        app:layout_constraintEnd_toStartOf="@+id/AIG2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AILL1">
+
+        <ImageView
+            android:id="@+id/AIIV2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/q1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AILL8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_let1"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/AILL1"
+        app:layout_constraintEnd_toStartOf="@+id/AIG1"
+        app:layout_constraintStart_toStartOf="@+id/AIG2"
+        app:layout_constraintTop_toBottomOf="@+id/AILL1">
+
+        <ImageView
+            android:id="@+id/AIIV3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/q2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AILL9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_let1"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/AILL1"
+        app:layout_constraintEnd_toStartOf="@+id/AIG3"
+        app:layout_constraintStart_toStartOf="@+id/AIG1"
+        app:layout_constraintTop_toBottomOf="@+id/AILL1">
+
+        <ImageView
+            android:id="@+id/AIIV4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/q3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AILL10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_let1"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/AILL1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/AIG3"
+        app:layout_constraintTop_toBottomOf="@+id/AILL1">
+
+        <ImageView
+            android:id="@+id/AIIV5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/q4" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/AITV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_weight="1"
+        android:text="Profil"
+        android:textColor="@color/WHI"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/AILL7"
+        app:layout_constraintEnd_toEndOf="@+id/AILL7"
+        app:layout_constraintStart_toStartOf="@+id/AILL7" />
+
+    <TextView
+        android:id="@+id/AITV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_weight="1"
+        android:text="Déclarer\nun déchet"
+        android:textAlignment="center"
+        android:textColor="@color/WHI"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/AILL8"
+        app:layout_constraintEnd_toEndOf="@+id/AILL8"
+        app:layout_constraintStart_toStartOf="@+id/AILL8" />
+
+    <TextView
+        android:id="@+id/AITV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_weight="1"
+        android:text="Déclarer\nune benne"
+        android:textAlignment="center"
+        android:textColor="@color/WHI"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/AILL9"
+        app:layout_constraintEnd_toEndOf="@+id/AILL9"
+        app:layout_constraintStart_toStartOf="@+id/AILL9" />
+
+    <TextView
+        android:id="@+id/AITV5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_weight="1"
+        android:text="Contact"
+        android:textColor="@color/WHI"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/AILL10"
+        app:layout_constraintEnd_toEndOf="@+id/AILL10"
+        app:layout_constraintStart_toStartOf="@+id/AILL10" />
+</androidx.constraintlayout.widget.ConstraintLayout>
